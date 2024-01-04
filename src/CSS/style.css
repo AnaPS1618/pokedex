@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+#imagem{
+    width: 800px;
+    height: 800px;
+    background-color: yellowgreen;
+    background-image: url('../img/pokédex.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+img{
+    width: 265px;
+    height: 210px;
+    position: absolute;
+    left: 340px;
+    top: 110px;
+    background-color: white;
+}
+
+#anterior{
+    position: absolute;
+    top: 580px;
+    left: 195px;
+    width: 2dvw;
+    height: 4dvh;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#proximo{
+    position: absolute;
+    top: 580px;
+    left: 265px;
+    width: 2dvw;
+    height: 4dvh;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 600;
+}
