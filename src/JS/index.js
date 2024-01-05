@@ -77,6 +77,13 @@ anterior.addEventListener('click', () => {
     }
 })
 
+let imagemEvolution = document.querySelector('#imagemEvolution')
+
+evolucao.addEventListener('click', () => {
+    imagemEvolution = ''
+
+})
+
 visualizandoPersonagem = (personagem) => {
     imagem.innerHTML = ''
 
